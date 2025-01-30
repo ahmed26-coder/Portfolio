@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@theme {
+  --font-primary: "Montserrat", serif;
+
+  --color-text-white: #FFFFFF;
+  --color-Sky-blue: #00EEFF;
+  --color-bg-color: #232832;
+  --color-second-bg-color: #323946 ;
+  --color-text-black: #000000;
+  --color-
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
