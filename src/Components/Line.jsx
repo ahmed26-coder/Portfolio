@@ -39,7 +39,7 @@ function Line(props) {
 
   return (
     <div ref={ref} className="px-4 py-2 rounded-lg text-white">
-      <div className="relative w-[300px] h-4 rounded-full bg-second-bg-color -ml-3">
+      <div className="relative w-[300px] h-4 rounded-full bg-second-bg-color -ml-3 sm:mx-[10%] md:mx-[0%]">
         <div
           className="absolute top-0 left-0 h-full rounded-full transition-all duration-100 bg-Sky-blue"
           style={{ width: `${progress}%` }}
